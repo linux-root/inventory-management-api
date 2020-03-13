@@ -1,0 +1,11 @@
+{
+  "name": "local",
+  "connector": "mongodb",
+  "url": "",
+  "host": "localhost",
+  "port": 27017,
+  "user": "cooper",
+  "password": "secret123",
+  "database": "inventory-management",
+  "useNewUrlParser": true
+}
