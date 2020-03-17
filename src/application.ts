@@ -14,7 +14,11 @@ export class InventoryManagementApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
 ) {
   constructor(options: ApplicationConfig = {}) {
-    super(options);
+    super({
+      rest:{
+        port: 5000
+      }
+    });
 
     // Set up the custom sequence
     this.sequence(MySequence);

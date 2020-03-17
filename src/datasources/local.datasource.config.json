@@ -6,6 +6,6 @@
   "port": 27017,
   "user": "cooper",
   "password": "secret123",
-  "database": "inventory-management",
+  "database": "admin",
   "useNewUrlParser": true
 }
